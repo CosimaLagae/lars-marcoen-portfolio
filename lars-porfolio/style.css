@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    background-color: black;
+
+    background-image: url(./assets/img/STROOM-W.svg);
+    background-repeat: no-repeat;
+    background-size: auto 300vw;
+    background-position-y: -80px;
+
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: underline;
+}
+a:active{
+    text-decoration: line-through;
+}
+
+h1{
+    font-family: 'c4';
+    letter-spacing: 2px;
+
+}
+.navbar{
+    position: fixed;
+    margin-left: 5vw;
+    color: white;
+}
+.navbar h1:hover{
+    text-shadow:  0 0 20px #fff;
+}
+
+.content{
+    display: none;
+    margin-top: -12px;
+    margin-left: -40px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'testue';
+}
+.navbar:hover .content{
+    display: block;
+}
+
+svg {
+    fill: white;
+}
+
+
+
+.werkhuis {
+    display: flex;
+    width: 70vw;
+    margin-left: 14vw;
+
+}
+.w1 img{
+    width: 25vw;
+}
+.w1{
+    margin-top: 360px;
+    width: 25vw ;
+}
+.w2 .gebouw{
+    width: 14vw;
+    margin-left: 30vw;
+    margin-top: 150px;
+}
+.plan{
+    width: 14vw;
+    margin-left: 42vw;
+}
+
+.chaos{
+    display: flex;
+    width: 95vw;
+    margin-top: 600px;
+}
+
+.beads{
+    width: 15vw;
+    height: auto;
+    margin-left: 5vw;
+}
+.hoodie{
+    width: 15vw;
+    height: 35vh;
+    margin-left: 2vw;
+}
+.xr{
+    width: 15vw;
+    height: auto;
+}
+.chaos p{
+    width: 20vw;
+    margin-left: 30vw;
+    margin-top: 100px;
+
+}
+.chaos div{
+    margin-top: -280px;
+}
+
+/* Scrollbar Styling */
+body::-webkit-scrollbar {
+    display: none;
+}
