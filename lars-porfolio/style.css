@@ -20,10 +20,16 @@ a:visited{
 a:active{
     text-decoration: line-through;
 }
+p{
+    font-family: 'testue';
+    font-size: 1vw;
+
+}
 
 h1{
     font-family: 'c4';
     letter-spacing: 2px;
+    font-size: 2vw;
 
 }
 .navbar{
@@ -63,13 +69,13 @@ svg {
     width: 25vw;
 }
 .w1{
-    margin-top: 360px;
+    margin-top: 32%;
     width: 25vw ;
 }
 .w2 .gebouw{
     width: 14vw;
     margin-left: 30vw;
-    margin-top: 150px;
+    margin-top: 17%;
 }
 .plan{
     width: 14vw;
@@ -79,34 +85,84 @@ svg {
 .chaos{
     display: flex;
     width: 95vw;
-    margin-top: 600px;
+    margin-top: 15%;
 }
 
 .beads{
     width: 15vw;
-    height: auto;
+    height: fit-content;
     margin-left: 5vw;
+    margin-top: 24%;
 }
 .hoodie{
     width: 15vw;
-    height: 35vh;
+    height: fit-content;
     margin-left: 2vw;
+    margin-top: 24%;
+
 }
 .xr{
     width: 15vw;
-    height: auto;
+    height: fit-content;
 }
 .chaos p{
     width: 20vw;
     margin-left: 30vw;
-    margin-top: 100px;
+    margin-top: 29%;
 
 }
-.chaos div{
-    margin-top: -280px;
-}
+
 
 /* Scrollbar Styling */
 body::-webkit-scrollbar {
     display: none;
+}
+
+
+
+.club{
+    margin-top: 29vw;
+}
+
+.c1{
+    display: flex;
+} 
+.fort2{
+    width: 19vw;
+    height: fit-content;
+    margin-top: 2%;
+}
+.fort1{
+    margin-left: 20vw;
+    width: 30vw;
+    margin-top: -4%;
+    height: fit-content;
+
+}
+.c2{
+    display: flex;
+}
+.c2 img{
+    width: 26vw;
+    height: fit-content;
+    margin-left: 7.8vw;
+}
+.ctext{
+    width: 20vw;
+    margin-left: 25vw;
+    margin-top: 6%;
+}
+
+.contact{
+    width: 10vw;
+    margin-top: 35%;
+    margin-bottom: 30%;
+    margin-left: 70vw;
+    text-align: center;
+}
+.contact h1{
+    margin-bottom: 50px;
+}
+.contact p {
+    margin-top: -20px;
 }
