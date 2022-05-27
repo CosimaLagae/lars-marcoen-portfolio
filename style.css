@@ -21,13 +21,14 @@ a:active{
     text-decoration: line-through;
 }
 p{
-    font-family: 'testue';
+    font-family: 'testue2';
     font-size: 1vw;
 
 }
 
 h1{
-    font-family: 'c4';
+    font-family: 'c4v2';
+    font-weight: 100;
     letter-spacing: 2px;
     font-size: 2vw;
 
@@ -47,7 +48,7 @@ h1{
     margin-left: -40px;
     text-decoration: none;
     list-style: none;
-    font-family: 'testue';
+    font-family: 'testue2';
 }
 .navbar:hover .content{
     display: block;

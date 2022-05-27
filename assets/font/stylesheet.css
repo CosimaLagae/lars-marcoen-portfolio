@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'c4v2';
+    src:  url('C4v_4-Regular.woff2') format('woff2'),
+          url('C4v_4-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'testue2';
+    src:  url('Testue.woff2') format('woff2'),
+          url('Testue.woff') format('woff');
+}
