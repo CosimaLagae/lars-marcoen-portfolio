@@ -78,13 +78,13 @@ svg {
     width: 25vw;
 }
 .w1{
-    margin-top: 32%;
+    margin-top: 30%;
     width: 25vw ;
 }
-.w2 .gebouw{
+.gebouw{
     width: 14vw;
     margin-left: 30vw;
-    margin-top: 17%;
+    margin-top: 10%;
 }
 .plan{
     width: 14vw;
@@ -94,20 +94,20 @@ svg {
 .chaos{
     display: flex;
     width: 95vw;
-    margin-top: 15%;
+    margin-top: 20%;
 }
 
 .beads{
     width: 15vw;
     height: fit-content;
     margin-left: 5vw;
-    margin-top: 24%;
+    margin-top: 19%;
 }
 .hoodie{
     width: 15vw;
     height: fit-content;
     margin-left: 2vw;
-    margin-top: 24%;
+    margin-top: 19%;
 
 }
 .xr{
@@ -117,7 +117,7 @@ svg {
 .chaos p{
     width: 20vw;
     margin-left: 30vw;
-    margin-top: 29%;
+    margin-top: 24%;
 
 }
 
@@ -130,7 +130,7 @@ body::-webkit-scrollbar {
 
 
 .club{
-    margin-top: 27.5vw;
+    margin-top: 25vw;
 }
 
 .c1{
@@ -139,7 +139,7 @@ body::-webkit-scrollbar {
 .fort2{
     width: 19vw;
     height: fit-content;
-    margin-top: 2.5%;
+    margin-top: 2.2%;
 }
 .fort1{
     margin-left: 20vw;
