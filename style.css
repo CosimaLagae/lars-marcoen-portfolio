@@ -5,7 +5,7 @@ body{
     background-image: url(./assets/img/STROOM-W.svg);
     background-repeat: no-repeat;
     background-size: auto 300vw;
-    background-position-y: -80px;
+    background-position-y: 800px;
 
     color: white;
 }
@@ -42,7 +42,7 @@ h1{
     text-shadow:  0 0 20px #fff;
 }
 
-.content{
+.navcontent{
     display: none;
     margin-top: -12px;
     margin-left: -40px;
@@ -50,12 +50,16 @@ h1{
     list-style: none;
     font-family: 'testue2';
 }
-.navbar:hover .content{
+.navbar:hover .navcontent{
     display: block;
 }
 
 svg {
     fill: white;
+}
+
+.projects{
+    margin-top: 30%;
 }
 
 
@@ -166,4 +170,10 @@ body::-webkit-scrollbar {
 }
 .contact p {
     margin-top: -20px;
+}
+
+.larst{
+    padding-top: 3vh;
+    width: 15vw;
+    margin-left: 75vw;
 }
