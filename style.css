@@ -126,7 +126,7 @@ body::-webkit-scrollbar {
 
 
 .club{
-    margin-top: 29vw;
+    margin-top: 27.5vw;
 }
 
 .c1{
@@ -135,7 +135,7 @@ body::-webkit-scrollbar {
 .fort2{
     width: 19vw;
     height: fit-content;
-    margin-top: 2%;
+    margin-top: 2.5%;
 }
 .fort1{
     margin-left: 20vw;
@@ -176,4 +176,5 @@ body::-webkit-scrollbar {
     padding-top: 3vh;
     width: 15vw;
     margin-left: 75vw;
+    text-align: justify;
 }
