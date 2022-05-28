@@ -110,14 +110,21 @@ svg {
     margin-top: 16%;
 
 }
+.chaos div{
+    text-align: center;
+    margin-left: -15vw
+}
+.chaos h1{
+    margin:  0;
+}
 .xr{
-    width: 20vw;
+    width: 25vw;
     height: 20vw;
 }
 .chaos p{
     width: 23vw;
     margin-left: 25vw;
-    margin-top: 24%;
+    margin-top: 26%;
 
 }
 
