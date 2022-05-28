@@ -93,7 +93,7 @@ svg {
 
 .chaos{
     display: flex;
-    width: 95vw;
+    width: 100vw;
     margin-top: 20%;
 }
 
@@ -101,22 +101,22 @@ svg {
     width: 15vw;
     height: fit-content;
     margin-left: 5vw;
-    margin-top: 19%;
+    margin-top: 16%;
 }
 .hoodie{
     width: 15vw;
     height: fit-content;
     margin-left: 2vw;
-    margin-top: 19%;
+    margin-top: 16%;
 
 }
 .xr{
-    width: 15vw;
-    height: fit-content;
+    width: 20vw;
+    height: 20vw;
 }
 .chaos p{
-    width: 20vw;
-    margin-left: 30vw;
+    width: 23vw;
+    margin-left: 25vw;
     margin-top: 24%;
 
 }
@@ -130,7 +130,7 @@ body::-webkit-scrollbar {
 
 
 .club{
-    margin-top: 25vw;
+    margin-top: 27vw;
 }
 
 .c1{
@@ -181,4 +181,8 @@ body::-webkit-scrollbar {
     width: 15vw;
     margin-left: 75vw;
     text-align: justify;
+}
+
+.insta:hover{
+    text-shadow:  0 0 5px #fff;
 }
