@@ -112,7 +112,8 @@ svg {
 }
 .chaos div{
     text-align: center;
-    margin-left: -15vw
+    margin-left: -15vw;
+    margin-top: 8vh;
 }
 .chaos h1{
     margin:  0;
