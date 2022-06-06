@@ -63,7 +63,7 @@ svg {
 }
 
 .projects{
-    margin-top: 30%;
+    margin-top: 18%;
 }
 
 
@@ -78,7 +78,7 @@ svg {
     width: 25vw;
 }
 .w1{
-    margin-top: 30%;
+    margin-top: 22%;
     width: 25vw ;
 }
 .gebouw{
@@ -138,7 +138,7 @@ body::-webkit-scrollbar {
 
 
 .club{
-    margin-top: 27vw;
+    margin-top: 21vw;
 }
 
 .c1{
@@ -165,16 +165,16 @@ body::-webkit-scrollbar {
     margin-left: 7.8vw;
 }
 .ctext{
-    width: 20vw;
-    margin-left: 25vw;
+    width: 40vw;
+    margin-left: 18vw;
     margin-top: 6%;
 }
 
 .contact{
     width: 10vw;
-    margin-top: 35%;
-    margin-bottom: 30%;
-    margin-left: 70vw;
+    margin-top: 55%;
+    margin-bottom: 20%;
+    margin-left: 46vw;
     text-align: center;
 }
 .contact h1{
