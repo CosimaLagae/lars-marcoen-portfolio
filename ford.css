@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+div {
+    margin-left: 10vw;
+}
+
+iframe{
+    position: fixed;
+    width: 80vw;
+    height: 100vh;
+}
+
+p{
+    position: absolute;
+    transform: rotate(-90deg);
+    margin-top: 50vh;
+    font-size: 5vw;
+    margin-left: -7vw;
+    font-family: 'testue2';
+
+}

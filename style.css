@@ -170,9 +170,30 @@ body::-webkit-scrollbar {
     margin-top: 6%;
 }
 
+.blob{
+    width: 20vw;
+    margin-left: 65vw;
+    margin-top: 10%;
+    animation: rotation 4s infinite linear;
+
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+
+
+
 .contact{
     width: 10vw;
-    margin-top: 55%;
+    margin-top: 26%;
     margin-bottom: 20%;
     margin-left: 46vw;
     text-align: center;
