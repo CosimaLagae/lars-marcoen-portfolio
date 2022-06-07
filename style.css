@@ -1,3 +1,6 @@
+/*********************
+    VOLLEDIGE PAGINA
+**********************/
 html{
     scroll-behavior: smooth;
 }
@@ -13,6 +16,11 @@ body{
     color: white;
 
 }
+/* Scrollbar Styling */
+body::-webkit-scrollbar {
+    display: none;
+}
+
 a{
     color: white;
     text-decoration: none;
@@ -37,6 +45,11 @@ h1{
     font-size: 2vw;
 
 }
+
+/*********************
+    NAVIGATIE BAR
+**********************/
+
 .navbar{
     position: fixed;
     margin-left: 5vw;
@@ -62,12 +75,14 @@ svg {
     fill: white;
 }
 
+/*********************
+        CONTENT
+**********************/
 .projects{
     margin-top: 18%;
 }
 
-
-
+/*** Werkhuis ***/
 .werkhuis {
     display: flex;
     width: 70vw;
@@ -91,6 +106,7 @@ svg {
     margin-left: 42vw;
 }
 
+/*** Chaos atelier ***/
 .chaos{
     display: flex;
     width: 100vw;
@@ -130,17 +146,10 @@ svg {
 }
 
 
-/* Scrollbar Styling */
-body::-webkit-scrollbar {
-    display: none;
-}
-
-
-
+/*** Club Derive ***/
 .club{
     margin-top: 21vw;
 }
-
 .c1{
     display: flex;
 } 
@@ -188,9 +197,7 @@ body::-webkit-scrollbar {
 }
 
 
-
-
-
+/*** Contact ***/
 .contact{
     width: 10vw;
     margin-top: 26%;
