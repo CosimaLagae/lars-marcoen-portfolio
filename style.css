@@ -2,6 +2,7 @@
     VOLLEDIGE PAGINA
 **********************/
 html{
+    /* zodat van pagina tot pagina dingen smooth gebeuren */
     scroll-behavior: smooth;
 }
 body{
@@ -21,6 +22,7 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+/* a staat voor link */
 a{
     color: white;
     text-decoration: none;
@@ -39,6 +41,7 @@ p{
 }
 
 h1{
+    /* font-family is om de font aan te geven */
     font-family: 'c4v2';
     font-weight: 100;
     letter-spacing: 2px;
@@ -49,7 +52,6 @@ h1{
 /*********************
     NAVIGATIE BAR
 **********************/
-
 .navbar{
     position: fixed;
     margin-left: 5vw;
@@ -71,9 +73,7 @@ h1{
     display: block;
 }
 
-svg {
-    fill: white;
-}
+
 
 /*********************
         CONTENT
@@ -82,8 +82,17 @@ svg {
     margin-top: 18%;
 }
 
+/*** begin text ***/
+.larst{
+    padding-top: 3vh;
+    width: 15vw;
+    margin-left: 75vw;
+    text-align: justify;
+}
+
 /*** Werkhuis ***/
 .werkhuis {
+    /* flex is een soort grid systeem om u content flexibeler te maken en niet onder elkaar te plaatsen*/
     display: flex;
     width: 70vw;
     margin-left: 14vw;
@@ -183,10 +192,11 @@ svg {
     width: 20vw;
     margin-left: 65vw;
     margin-top: 10%;
+    /* zodat de blob rond kan draaien, de rotation verwijst naar de keyframe rotation */
     animation: rotation 4s infinite linear;
 
 }
-
+/* dit zegt hoe het object moet ronddraaien (dan aan telkeens een frame die een px verschuift, stopmotion principe)*/
 @keyframes rotation {
   from {
     transform: rotate(0deg);
@@ -212,12 +222,7 @@ svg {
     margin-top: -20px;
 }
 
-.larst{
-    padding-top: 3vh;
-    width: 15vw;
-    margin-left: 75vw;
-    text-align: justify;
-}
+
 
 .insta:hover{
     text-shadow:  0 0 5px #fff;
