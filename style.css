@@ -9,12 +9,14 @@ body{
     margin: 0;
     background-color: black;
 
+
+    color: white;
+
+}
+.projects{
     background-image: url(./assets/img/STROOM-W.svg);
     background-repeat: no-repeat;
     background-size: auto 300vw;
-    background-position-y: 800px;
-
-    color: white;
 
 }
 /* Scrollbar Styling */
@@ -78,10 +80,6 @@ h1{
 /*********************
         CONTENT
 **********************/
-.projects{
-    margin-top: 18%;
-}
-
 /*** begin text ***/
 .larst{
     padding-top: 3vh;
@@ -90,12 +88,21 @@ h1{
     text-align: justify;
 }
 
+.projects{
+    margin-top: 18%;
+    padding-bottom: 25%;
+}
+
+
+
 /*** Werkhuis ***/
 .werkhuis {
     /* flex is een soort grid systeem om u content flexibeler te maken en niet onder elkaar te plaatsen*/
     display: flex;
     width: 70vw;
     margin-left: 14vw;
+    margin-top: 5.5%;
+    padding-top: 9%;
 
 }
 .w1 img{
@@ -150,14 +157,14 @@ h1{
 .chaos p{
     width: 23vw;
     margin-left: 25vw;
-    margin-top: 26%;
+    margin-top: 28%;
 
 }
 
 
 /*** Club Derive ***/
 .club{
-    margin-top: 21vw;
+    margin-top: 22vw;
 }
 .c1{
     display: flex;
@@ -165,12 +172,12 @@ h1{
 .fort2{
     width: 19vw;
     height: fit-content;
-    margin-top: 2.2%;
+    margin-top: 1.5%;
 }
 .fort1{
     margin-left: 20vw;
     width: 30vw;
-    margin-top: -4%;
+    margin-top: -5%;
     height: fit-content;
 
 }
@@ -196,6 +203,9 @@ h1{
     animation: rotation 4s infinite linear;
 
 }
+.blob:hover{
+    transform: scale(1);
+}
 /* dit zegt hoe het object moet ronddraaien (dan aan telkeens een frame die een px verschuift, stopmotion principe)*/
 @keyframes rotation {
   from {
@@ -216,10 +226,11 @@ h1{
     text-align: center;
 }
 .contact h1{
-    margin-bottom: 50px;
+    margin-bottom: 2vh;
 }
 .contact p {
-    margin-top: -20px;
+    padding: 0;
+    margin: 0;
 }
 
 
